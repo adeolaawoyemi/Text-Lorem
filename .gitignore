@@ -1,0 +1,10 @@
+MYMETA.*
+blib/
+*.tar.gz
+*.swp
+cover_db/
+*.back
+*.bak
+Makefile
+Text-Lorem-*
+pm_to_blib

@@ -2,3 +2,7 @@
   + Added support for creating multiple instances of the Text::Lorem object.
 0.3 2004-03-25
   + Added command line utility submitted by Darren Chamberlain
+0.31 2021-02-13
+  + Convert build to ExtUtils::MakeMaker
+  + Remove INSTALL file
+  + Add gitignore file

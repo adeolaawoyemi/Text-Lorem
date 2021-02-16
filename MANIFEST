@@ -1,10 +1,9 @@
 bin/lorem
-Build.PL
 CHANGES
-INSTALL
 lib/Text/Lorem.pm
 Makefile.PL
 MANIFEST
+META.json
 META.yml
 README
 t/01_words.t

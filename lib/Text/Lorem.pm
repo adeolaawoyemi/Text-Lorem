@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use vars qw($VERSION);
 
-$VERSION = "0.31";
+$VERSION = "0.32";
 
 my $lorem_singleton;
 
@@ -81,9 +81,9 @@ Text::Lorem - Generate random Latin looking text
 =head1 SYNOPSIS
 
     use Text::Lorem;
-   
+
     my $text = Text::Lorem->new();
-  
+
     # Generate a string of text with 5 words
     $words = $text->words(5);
 

@@ -6,3 +6,6 @@
   + Convert build to ExtUtils::MakeMaker
   + Remove INSTALL file
   + Add gitignore file
+0.32 2021-02-19
+  + Update methods to return list or scalar context
+  + Add tests for context, singleton, and new

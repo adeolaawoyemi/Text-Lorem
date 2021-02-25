@@ -1,7 +1,7 @@
 ---
 abstract: 'Generate random Latin looking text'
 author:
-  - 'Adeola Awoyemi <adeola@creativeadea.com>'
+  - 'Adeola Awoyemi <adeola@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: '6.46'
   Test::More: '0'

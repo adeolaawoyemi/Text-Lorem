@@ -1,7 +1,7 @@
 {
    "abstract" : "Generate random Latin looking text",
    "author" : [
-      "Adeola Awoyemi <adeola@creativeadea.com>"
+      "Adeola Awoyemi <adeola@cpan.org>"
    ],
    "dynamic_config" : 1,
    "generated_by" : "ExtUtils::MakeMaker version 7.56, CPAN::Meta::Converter version 2.150010",

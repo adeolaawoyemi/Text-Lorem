@@ -143,7 +143,7 @@ Thanks to the guys who pushed me off the cliff called comfort and into the scary
 
 =head1 AUTHOR
 
-Adeola Awoyemi (adeola@creativeadea.com)
+Adeola Awoyemi (adeola@cpan.org)
 
 =head1 SEE ALSO
 

@@ -8,6 +8,7 @@ jobs:
       matrix:
         perl-version: [5.30, 5.32]
     steps:
+      - uses: actions/checkout@v2
       - name: perl -V
         run: perl -V
       - name: Perl Makefile.PL

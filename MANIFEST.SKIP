@@ -83,3 +83,4 @@
 
 # Avoid github specific testing related files.
 ^\.travis\.yml
+^\.github/

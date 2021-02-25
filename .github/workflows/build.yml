@@ -1,0 +1,19 @@
+name: Check Perl
+on: [push]
+jobs:
+  check-perl:
+    name: Check perl code
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        perl-version: [5.32]
+    container:
+      image: perl:${{ matrix.perl-version }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: perl -V
+        run: perl -V
+      - name: Perl Makefile.PL
+        run: perl Makefile.PL
+      - name: Test
+        run: prove -l t

@@ -1,0 +1,16 @@
+name: Check Perl
+on: [push, pull_request]
+jobs:
+  check-perl:
+    name: Check perl code
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        perl-version: [5.30, 5.32]
+    steps:
+      - name: perl -V
+        run: perl -V
+      - name: Perl Makefile.PL
+        run: perl Makefile.PL
+      - name: Test
+        run: prove -l t

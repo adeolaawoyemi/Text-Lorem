@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        perl-version: [5.30, 5.32]
+        perl-version: [5.32]
     container:
       image: perl:${{ matrix.perl-version }}
     steps:

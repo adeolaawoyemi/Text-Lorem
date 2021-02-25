@@ -1,7 +1,7 @@
 ---
 abstract: 'Generate random Latin looking text'
 author:
-  - 'Adeola Awoyemi <adeola@fotango.com>'
+  - 'Adeola Awoyemi <adeola@creativeadea.com>'
 build_requires:
   ExtUtils::MakeMaker: '6.46'
   Test::More: '0'
@@ -21,5 +21,5 @@ no_index:
 resources:
   bugtracker: https://github.com/adeolaawoyemi/Text-Lorem/issues
   repository: https://github.com/adeolaawoyemi/Text-Lorem.git
-version: '0.32'
+version: '0.33'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'

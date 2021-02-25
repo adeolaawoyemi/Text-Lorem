@@ -1,4 +1,3 @@
-.github/workflows/build.yml
 bin/lorem
 CHANGES
 lib/Text/Lorem.pm

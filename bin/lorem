@@ -18,13 +18,13 @@ die usage()
 
 my $lorem = Text::Lorem->new;
 if ($opt_w) {
-    print $lorem->words($opt_w);
+    print join " ", $lorem->words($opt_w);
 }
 elsif ($opt_s) {
-    print $lorem->sentences($opt_s);
+    print join " ", $lorem->sentences($opt_s);
 }
 elsif ($opt_p) {
-    print $lorem->paragraphs($opt_p);
+    print join "\n", $lorem->paragraphs($opt_p);
 }
 else {
     print $lorem->paragraphs(1);
